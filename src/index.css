@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+calendar-range {
+    width: 100%;
+}
+
+calendar-month {
+    width: 100%;
+
+}
+
+/* temporal fixing for template columns */
+.minmax-200 {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.MuiDateCalendar-root {
+    width: fit-content;
+    
+
+}
+
+/*week*/
+/* .css-14iq4xa-MuiDayCalendar-root {
+    max-width: fit-content;
+} */
+
+.css-12p2adl-MuiDayCalendar-monthContainer {
+    width: auto;
+}
+
+.css-1rtg91x-MuiDateCalendar-root {
+    max-width: 100%;
+}
+
+.css-1aqny2q-MuiPickersCalendarHeader-root {
+    max-width: 100%;
+}
